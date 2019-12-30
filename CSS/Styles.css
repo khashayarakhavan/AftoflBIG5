@@ -1,0 +1,209 @@
+body {
+  background-color: white;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Meriweather', serif;
+}
+
+h1 {
+  font-size: 5.6rem;
+  margin: 100px auto 0 auto;
+  line-height: 1.1;
+  font-family: 'Sacramento', cursive;
+
+  color: #66BFBF
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+  margin-bottom: 5px;
+
+
+}
+
+h3 {
+  font-size: 1rem;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+/* This is the topsection first comment */
+.Top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  margin: 0;
+  padding-top: 100px;
+}
+.bottom-container {
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #66BFBF;
+}
+.fivexfive {
+display: block;
+  clear: right;
+}
+.middle-container {
+  margin: 150px 0;
+}
+
+
+.profile {
+  padding-bottom: 10px;
+}
+.profile-text {
+  width: 35%;
+  margin: 0 auto 0 auto;
+}
+.mountain {
+  margin: 100px 0 0 0;
+}
+
+.five {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 150px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+
+}
+p {
+  direction: ltr;
+  line-height: 2;
+  
+
+}
+
+hr{
+  border: 6px dotted ;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.contact-message {
+  width: 30%;
+  margin: 10px auto 10px auto;
+}
+.skill-row{
+  direction: ltr;
+  text-align: left;
+  line-height: 2;
+  position: relative;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.skill-row-img {
+  width: 25%;
+  position: relative;
+  float: left;
+  margin-right: 30px;
+}
+
+.pc-img {
+  width: 25%;
+  position: relative;
+  float: right;
+  margin-left: 30px;
+
+
+}
+
+.icecream {
+  width: 40%;
+
+}
+
+a {
+  text-decoration: none;
+  margin: 5px 10px 0px 10px;
+}
+
+/*
+.Navbar{
+  position: fixed;
+  left: 0 ;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-color: #CDCDCD;
+  opacity: 0.23;
+*/
+/* This part does the magic on mouse over
+.Top:hover {
+  height: 200px;
+  background-color: grey;
+  font-size: 18px;
+  margin: 0;
+  font-style: normal;
+  font-variant: normal;
+  font-family: monospace;
+}
+*/
+<style type="text/css">
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #e6cafc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #e6cafc;
+	box-shadow:inset 0px 1px 0px 0px #e6cafc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c579ff), color-stop(1, #a341ee) );
+	background:-moz-linear-gradient( center top, #c579ff 5%, #a341ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c579ff', endColorstr='#a341ee');
+	background-color:#c579ff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #a946f5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:131px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #8628ce;
+}
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a341ee), color-stop(1, #c579ff) );
+	background:-moz-linear-gradient( center top, #a341ee 5%, #c579ff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a341ee', endColorstr='#c579ff');
+	background-color:#a341ee;
+}.btn:active {
+	position:relative;
+	top:1px;
+}</style>
+/* This button was generated using CSSButtonGenerator.com */
